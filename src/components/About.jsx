@@ -3,7 +3,7 @@ import FoodImg from '../assets/food.png'
 
 const About = () => {
   return (
-    <div className='md:flex items-center gap-2 justify-between mt-12 lg:mt-20' id='about'>
+    <div className='md:flex items-center gap-4 justify-between mt-16 lg:mt-20' id='about'>
         <div>
             <img src={FoodImg} className='w-[450px]' alt="" />
         </div>
