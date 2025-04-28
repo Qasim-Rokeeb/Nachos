@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import Logo from '../assets/logo.png'
 import { Menu, X } from 'lucide-react'
 
+
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [isScrolled, setIsScrolled] = useState(false)
@@ -61,6 +62,7 @@ const Navbar = () => {
           >
             <X size={32} />
           </button>
+          
           <ul className='flex flex-col items-center space-y-6'>
             <li className='text-red-800'>
               <a href="#home" onClick={handleMenuItemClick}>Home</a>
